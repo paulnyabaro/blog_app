@@ -7,6 +7,14 @@
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
+    <header>
+        <a href="{% url 'home' %}">Blog app</a>
+        <ul>
+            <li>
+                <a href="{% url 'home' %}">Home</a>
+            </li>
+        </ul>
+    </header>
     {% block content %}
     {% endblock %}
 </body>
