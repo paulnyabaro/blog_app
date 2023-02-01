@@ -3,5 +3,10 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-<h1>This is the homepage</h1>
+{% for post in post_list %}
+<div class="post-entry">
+    <h2><a href="">{{ post.title }}</a></h2>
+    <p>{{ post.body }}</p>
+</div>
+{% endfor %}
 {% endblock %}
