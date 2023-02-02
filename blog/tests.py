@@ -21,4 +21,4 @@ class BlogTests(TestCase):
         self.assertEqual(self.post.body, 'Nice body content')
         self.assertEqual(self.post.author.username, 'testuser')
         self.assertEqual(str(self.post), 'A good title')
-        self.assertEqual(self.post.get_absolute_url(), '/post/1')
+        self.assertEqual(self.post.get_absolute_url(), '/post/1/')
