@@ -38,6 +38,7 @@ h1{
 }
 .post-entry h2{
     font-size: 1.25rem;
+    margin-bottom: 0.5rem;
 }
 .post-entry h1{
     color: red;
