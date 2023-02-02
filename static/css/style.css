@@ -20,6 +20,10 @@ header,.container{
 header ul{
     list-style: none;
 }
+.logo{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
 h1{
     color: red;
 }
