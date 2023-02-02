@@ -17,6 +17,9 @@ header,.container{
     max-width: 1000px;
     margin: 0 auto;
 }
+header ul{
+    list-style: none;
+}
 h1{
     color: red;
 }
