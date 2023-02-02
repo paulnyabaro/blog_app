@@ -36,6 +36,9 @@ h1{
     padding: 1rem;
     margin: 0.5rem 0;
 }
+.post-entry h2{
+    font-size: 1.25rem;
+}
 .post-entry h1{
     color: red;
     margin: 0 0 0.5rem;
