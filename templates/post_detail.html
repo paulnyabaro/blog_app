@@ -7,6 +7,7 @@
     <div class="post-entry">
         <h1>{{ post.title }}</h1>
         <p>{{ post.body }}</p>
+        <a href="{% url 'post_edit' post.id %}">Edit post</a>
     </div>
 </div>
 {% endblock %}
