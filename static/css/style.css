@@ -46,3 +46,15 @@ h1{
     color: red;
     margin: 0 0 0.5rem;
 }
+.edited-badge{
+    display: inline-block;
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 0.1rem 0.25rem;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin-left: 0.5rem;
+    color: #333;
+}

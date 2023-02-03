@@ -5,10 +5,15 @@
 {% block content %}
 <div class="container">
     <div class="post-entry">
-        <h1>{{ post.title }}</h1>
+        <h1>{{ post.title }}
+            {% if post.created|timesince != post.updated|timesince  %}
+                <small class="edited-badge">Edited</small>
+            {% endif %}
+        </h1>
         <p>{{ post.body }}</p>
         <small>{{ post.created|timesince }} ago</small> <br>
         <a href="{% url 'post_edit' post.id %}">Edit post</a>
+        <a href="{% url 'post_delete' post.id %}">Delete post</a>
     </div>
 </div>
 {% endblock %}

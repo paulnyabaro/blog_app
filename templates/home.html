@@ -7,12 +7,16 @@
     <h1>Blog app</h1>
     {% for post in post_list %}
     <div class="post-entry">
-        <h2><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h2>
+        <h2>
+            <a href="{% url 'post_detail' post.id %}">{{ post.title }}</a> 
+            {% if post.created|timesince != post.updated|timesince  %}
+                <small class="edited-badge">Edited</small>
+            {% endif %}
+        </h2>
         <p>{{ post.body }}</p>
-        {% if post.edited %}
-        <small>Edited</small>
-        {% endif %}
+        
         <small>{{ post.created|timesince }} ago</small>
+        <small>{{ post.updated|timesince }} ago</small>
     </div>
     {% endfor %}
 </div>
