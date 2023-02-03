@@ -7,7 +7,7 @@
     <div class="post-entry">
         <h1>{{ post.title }}</h1>
         <p>{{ post.body }}</p>
-        <small>{{ post.created|timesince }} ago</small>
+        <small>{{ post.created|timesince }} ago</small> <br>
         <a href="{% url 'post_edit' post.id %}">Edit post</a>
     </div>
 </div>
