@@ -9,6 +9,11 @@
     <div class="post-entry">
         <h2><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h2>
         <p>{{ post.body }}</p>
+        {% if post.edited %}
+        <small>Edited</small>
+        {% endif %}
+        <small>{{ post.created }}</small>
+        <small>{{ post.updated }}</small>
     </div>
     {% endfor %}
 </div>
