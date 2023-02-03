@@ -12,8 +12,7 @@
         {% if post.edited %}
         <small>Edited</small>
         {% endif %}
-        <small>{{ post.created }}</small>
-        <small>{{ post.updated }}</small>
+        <small>{{ post.created|timesince }} ago</small>
     </div>
     {% endfor %}
 </div>
