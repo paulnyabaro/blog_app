@@ -19,4 +19,4 @@ class BlogCreateView(CreateView):
 class BlogEditView(UpdateView):
     model = Post
     template_name = 'post_edit.html'
-    fields = ['title', 'author', 'body']
+    fields = ['title', 'body']
