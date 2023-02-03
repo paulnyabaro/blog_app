@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import ListView, DetailView, CreateView, UpdateView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Post
 
 
@@ -20,3 +20,6 @@ class BlogEditView(UpdateView):
     model = Post
     template_name = 'post_edit.html'
     fields = ['title', 'body']
+
+class BlogDeleteView(DeleteView):
+    model = Post
