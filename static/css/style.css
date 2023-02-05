@@ -67,10 +67,12 @@ input,select,textarea{
 }
 label{
     display: block;
+    margin-bottom: 0.25rem;
+    color: #555;
 }
 button{
     background-color: rgba(17, 17, 196);
-    
+    border:1px solid rgba(17, 17, 196);
     color: #fff;
     padding: 0.35rem 0.5rem;
     border-radius: 0.25rem;
