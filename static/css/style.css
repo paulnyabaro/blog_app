@@ -9,6 +9,9 @@ body{
 a{
     text-decoration: none;
 }
+h1,h2,h3,h4,h5,h6,ul,li,p,button,input{
+    margin-bottom: 0.5rem;
+}
 header{
     display: flex;
     margin-bottom: 1rem;
