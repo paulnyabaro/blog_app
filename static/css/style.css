@@ -83,4 +83,6 @@ button{
 }
 .helptext{
     display: block;
+    opacity: 0.5;
+    font-size: 0.75rem;
 }
