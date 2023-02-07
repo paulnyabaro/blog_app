@@ -81,7 +81,7 @@ button{
     padding: 0.35rem 0.5rem;
     border-radius: 0.25rem;
 }
-.helptext{
+.helptext, form ul{
     display: block;
     opacity: 0.5;
     font-size: 0.75rem;
