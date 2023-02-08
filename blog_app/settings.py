@@ -121,7 +121,7 @@ STATIC_URL = 'static/'
 
 # Defining the static files for Django
 STATICFILES_DIRS = [BASE_DIR / 'static']
-STATIC_ROOT = [BASE_DIR / 'staticfiles']
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 # Default primary key field type
