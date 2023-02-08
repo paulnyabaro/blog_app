@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p,button,input{
+    margin-bottom: 0.5rem;
+}
+header{
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #0001;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+header,.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.logo{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+h1{
+    color: red;
+    margin: 1rem 0 1.5rem;
+}
+.post-entry{
+    border:1px solid #0001;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+.post-entry h2{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.post-entry h1{
+    color: red;
+    margin: 0 0 0.5rem;
+}
+.edited-badge{
+    display: inline-block;
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 0.1rem 0.25rem;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin-left: 0.5rem;
+    color: #333;
+}
+input,select,textarea{
+    padding: 0.35rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    outline: none;
+    border:1px solid #0002;
+}
+label{
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #555;
+    font-size: 0.9rem;
+}
+button{
+    background-color: rgba(17, 17, 196);
+    border:1px solid rgba(17, 17, 196);
+    color: #fff;
+    padding: 0.35rem 0.5rem;
+    border-radius: 0.25rem;
+}
+.helptext, form ul{
+    display: block;
+    opacity: 0.5;
+    font-size: 0.75rem;
+}
