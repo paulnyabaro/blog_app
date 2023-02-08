@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'whitenoise.runserver_nostatic', # Registering white noise
+    'whitenoise.runserver_nostatic', # Registering white noise in the installed apps
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'accounts.apps.AccountsConfig',
